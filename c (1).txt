@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void) 
+{
+    int x=0,y=0,i=0,t=0,pd=0,pt=0;
+    scanf("%d",&t);
+    for (i=1;i<=t;i++)
+    {
+        scanf("%d %d",&x,&y);
+        pd=x*3;
+        pt=y*2;
+        if(pd>pt)
+            printf("%d\n",pt);
+        else
+            printf("%d\n",pd);
+    }
+	// your code goes here
+	return 0;
+}
+

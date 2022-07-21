@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void) {
+	int t=0,i=0,a=0,b=0,p1=0,p2=0;
+	scanf("%d",&t);
+	for (i=1;i<=t;i++)
+    {
+        scanf("%d %d",&a,&b);
+        p1=a*10;
+        p2=b*5;
+        if(p1>p2)
+            printf("FIRST\n");
+        else if(p1==p2)
+            printf("ANY\n");
+        else
+            printf("SECOND\n");
+    }
+	// your code goes here
+	return 0;
+}
+
